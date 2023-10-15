@@ -33,6 +33,7 @@ registerRoute(
     request.destination === 'font',
   new CacheFirst({
     cacheName: 'asset-cache',
+    
     plugins: [
       new CacheableResponsePlugin({
         statuses: [0, 200],
