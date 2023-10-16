@@ -19,7 +19,7 @@ deferredPrompt = null;
 });
 });
 
-// TODO: Implement a click event handler on the `butInstall` element
+// TODO: Implement a click event handler on the `butInstall` element ***DONE?***
 butInstall.addEventListener('click', async () => {
 if(deferredPrompt){
 deferredPrompt.prompt();
@@ -37,7 +37,7 @@ defferedPrompt.userChoice.then((choiceResult) => {
 }
 });
 
-// TODO: Add an handler for the `appinstalled` event
+// TODO: Add an handler for the `appinstalled` event **done?**
 window.addEventListener('appinstalled', (event) => {
 console.log('Application installed.')
 alert('Application installed.')
