@@ -25,7 +25,7 @@ if(deferredPrompt){
 deferredPrompt.prompt();
 
 // wait for the user to respond to the prompt
-defferedPrompt.userChoice.then((choiceResult) => {
+deferredPrompt.userChoice.then((choiceResult) => {
     if(choiceResult.outcome === "accepted"){
         console.log('User accepted the install')
 
